@@ -42,20 +42,12 @@
 
     <div id="app-7">
         <ol>
-          <!--
-            Agora provemos cada todo-item com o objeto todo que ele
-            representa, de forma que seu conteúdo possa ser dinâmico.
-            Também precisamos prover cada componente com uma "chave",
-            a qual será explicada posteriormente.
-          -->
-          <todo-item
-            v-for="item in groceryList"
-            v-bind:todo="item"
-            v-bind:key="item.id"
-          ></todo-item>
+          <todo-item v-for="item in groceryList" v-bind:todo="item">
+              
+          </todo-item>
         </ol>
     </div>
-    
+
 </body>
 <script src="assets/js/script.js"></script>
 </html>

@@ -60,7 +60,9 @@ Vue.component('todo-item', {
       groceryList: [
         { id: 0, text: 'Vegetais' },
         { id: 1, text: 'Queijo' },
-        { id: 2, text: 'Qualquer outra coisa que humanos podem comer' }
+        { id: 2, text: 'Qualquer outra coisa que humanos podem comer' },
+        { id: 3, text: 'Teste item' },
+        { id: 4, text: 'Teste item novo' }
       ]
     }
 })
